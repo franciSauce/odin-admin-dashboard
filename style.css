@@ -89,7 +89,7 @@ header {
 }
 
 .search > input {
-  background-color: var(--secondary-color);
+  background-color: var(--extra-color);
   width: 75%;
   height: 25px;
   margin: 20px;
@@ -252,3 +252,42 @@ a {
   text-decoration: none;
   color: var(--secondary-color);
 }
+
+.main {
+  display: grid;
+  grid-area: 2 / 2 / 3 / 3;
+  grid-template: repeat(2, 1fr) / 1fr 305px;
+  background-color: var(--extra-color);
+  gap: 30px;
+  padding: 30px;
+  font-family: louis;
+}
+
+.projects > h1 {
+  font-size: var(--sidebar-font-size);
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+
+.pro-card {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-auto-rows: minmax(225px, 310px);
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 10px;
+  border-left: 10px solid var(--bonus-color);
+  background-color: var(--secondary-color);
+  padding: 30px;
+  gap: 28px;
+  box-shadow: 0px 9px 15px 0px #bdbdbd;
+  cursor: pointer;
+}
+
