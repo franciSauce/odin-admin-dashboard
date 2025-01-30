@@ -155,3 +155,21 @@ header {
   font-size: 24px;
 }
 
+.buttons {
+  grid-area: 2 / 2 / 3 / 3;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.buttons button {
+  font-family: design;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  border: none;
+  border-radius: 25px;
+  height: 40px;
+  width: 100px;
+  cursor: pointer;
+}
+
