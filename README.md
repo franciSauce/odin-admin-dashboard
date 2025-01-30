@@ -10,4 +10,3 @@ Images provide by Josep Monter Martinez on Pixabay.
 Fonts provided by:
     1. Yehor Lisnyi on Dafont "https://www.dafont.com/yehor-lisnyi.d10562"
     2. Chen Yining on Dafont "https://www.dafont.com/chen-yining.d6681"
-                    
