@@ -60,3 +60,39 @@ body {
   display: grid;
   grid-template: 1.5fr 5fr / 350px 4fr;
 }
+
+header {
+  display: grid;
+  grid-template: 1fr 1fr / 1fr 400px;
+  grid-area: 1 / 2 / 2 / 3;
+  z-index: 1;
+  background-color: var(--secondary-color);
+  box-shadow: 0px -1px 12px 8px #bdbdbd;
+  /* position: relative; */
+}
+
+.search {
+  grid-area: 1 / 1 / 2 / 2;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.search > label {
+  height: 25px;
+  width: 25px;
+  background-image: url(svgs/search.svg);
+  background-size: cover;
+  margin-left: 20px;
+  /* background-repeat: no-repeat; */
+}
+
+.search > input {
+  background-color: var(--secondary-color);
+  width: 75%;
+  height: 25px;
+  margin: 20px;
+  border: none;
+  border-radius: 15px;
+  padding-left: 15px;
+}
