@@ -358,3 +358,58 @@ a {
 .a-card div p {
   color: rgb(124, 124, 124);
 }
+
+.trending {
+  grid-area: 2 / 2/ 3 / 3;
+  display: flex;
+  flex-direction: column;
+}
+
+.trending > h1 {
+  margin-bottom: 10px;
+}
+
+.t-card {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  border-radius: 10px;
+  background-color: var(--secondary-color);
+  padding: 15px 25px;
+  box-shadow: 0px 9px 15px 0px #bdbdbd;
+  cursor: pointer;
+}
+
+.t-card > div {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  gap: 20px;
+}
+
+.t-card > div > .profile-pics {
+  height: 60px;
+  width: 60px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.t-card > div:nth-of-type(1) > .profile-pics {
+  background-image: url(imgs/cat.jpg);
+}
+.t-card > div:nth-of-type(2) > .profile-pics {
+  background-image: url(imgs/cow.jpg);
+}
+.t-card > div:nth-of-type(3) > .profile-pics {
+  background-image: url(imgs/duck.jpg);
+}
+.t-card > div:nth-of-type(4) > .profile-pics {
+  background-image: url(imgs/horse.jpg);
+}
+
+.t-profiles > p {
+  margin-top: 5px;
+  color: rgb(124, 124, 124);
+}
