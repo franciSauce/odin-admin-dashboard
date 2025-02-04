@@ -143,7 +143,6 @@ header {
   background-size: cover;
   background-position: center;
   border-radius: 50%;
-  bottom: 10px;
   cursor: pointer;
 }
 
@@ -328,7 +327,7 @@ a {
   grid-area: 1 / 2 / 2 / 3;
   display: flex;
   flex-direction: column;
-  height: 30vh;
+  /* height: 30vh; */
 }
 
 .announcements > h1 {
@@ -364,7 +363,7 @@ a {
   grid-area: 2 / 2/ 3 / 3;
   display: flex;
   flex-direction: column;
-  height: 30vh;
+  /* height: 30vh; */
 }
 
 .trending > h1 {
