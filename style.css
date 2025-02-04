@@ -177,7 +177,7 @@ header {
   display: grid;
   grid-area: 1 / 1 / 3 / 2;
   align-items: start;
-  z-index: 1;
+  z-index: 2;
   background-color: var(--primary-color);
   font-family: design;
   font-size: var(--sidebar-font-size);
@@ -204,12 +204,15 @@ header {
   font-weight: 800;
 }
 
+.navigation,
+.settings {
+  margin-top: -55vh;
+}
 .sidebar > div li {
   display: flex;
   align-items: center;
   margin-bottom: 15px;
   gap: 30px;
-  font-weight: 400;
 }
 
 .sidebar > div li > div {
