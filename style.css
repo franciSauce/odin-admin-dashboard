@@ -208,6 +208,7 @@ header {
 .settings {
   margin-top: -55vh;
 }
+
 .sidebar > div li {
   display: flex;
   align-items: center;
@@ -267,12 +268,11 @@ a {
 
 .projects > h1 {
   font-size: var(--sidebar-font-size);
-  font-weight: 900;
+  font-weight: bold;
   margin-bottom: 10px;
 }
 
 .pro-card {
-  flex: 1;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   grid-auto-rows: minmax(225px, 310px);
@@ -295,7 +295,6 @@ a {
 
 .card > .text > h2 {
   font-size: 20px;
-  font-weight: bold;
 }
 
 .card > .text > p {
@@ -330,7 +329,6 @@ a {
   grid-area: 1 / 2 / 2 / 3;
   display: flex;
   flex-direction: column;
-  /* height: 30vh; */
 }
 
 .announcements > h1 {
@@ -338,7 +336,6 @@ a {
 }
 
 .a-card {
-  flex: 1;
   background-color: var(--secondary-color);
   border-radius: 10px;
   padding: 15px 25px;
@@ -366,7 +363,7 @@ a {
   grid-area: 2 / 2/ 3 / 3;
   display: flex;
   flex-direction: column;
-  /* height: 30vh; */
+  margin-top: -10vh;
 }
 
 .trending > h1 {
@@ -376,7 +373,7 @@ a {
 .t-card {
   display: flex;
   flex-direction: column;
-  flex: 1;
+  flex: 0.4;
   border-radius: 10px;
   background-color: var(--secondary-color);
   padding: 15px 25px;
